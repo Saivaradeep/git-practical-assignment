@@ -1,0 +1,75 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card Container */
+.card {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Placeholder Avatar */
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+/* Typography styling */
+h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 14px;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Button Component */
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
