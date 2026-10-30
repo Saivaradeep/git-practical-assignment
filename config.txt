@@ -1,0 +1,1 @@
+"Your phone couldn't start normally. Some configuration data may be corrupt"
